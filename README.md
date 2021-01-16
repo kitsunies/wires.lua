@@ -40,10 +40,10 @@ string.trim("")
 
 ## Interface
 
-`wire.starts(s, prefix)` Find if string `s` starts with `prefix`
+`wires.starts(s, prefix)` Find if string `s` starts with `prefix`
 
 ```lua
-wire.starts("foo bar baz", "foo") -> true
+wires.starts("foo bar baz", "foo") -> true
 ```
 
 Arguments:
@@ -56,10 +56,10 @@ Returns:
 * `(boolean)` - `true` if `s` starts with `prefix`, `false` if not
 
 ---
-`wire.ends(s, suffix)` Find if string `s` ends with `suffix`
+`wires.ends(s, suffix)` Find if string `s` ends with `suffix`
 
 ```lua
-wire.ends("foo bar baz", "baz") -> true
+wires.ends("foo bar baz", "baz") -> true
 ```
 
 Arguments:
@@ -72,10 +72,10 @@ Returns:
 * `(boolean)` - `true` if `s` ends with `suffix`, `false` if not
 
 ---
-`wire.trim(s)` Remove whitespace (defined as Lua pattern `"%s"`) from the beginning and end of a string
+`wires.trim(s)` Remove whitespace (defined as Lua pattern `"%s"`) from the beginning and end of a string
 
 ```lua
-wire.trim(" foo ") -> "foo"
+wires.trim(" foo ") -> "foo"
 ```
 
 Arguments:
